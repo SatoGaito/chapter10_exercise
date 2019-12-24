@@ -67,5 +67,19 @@ main {
 }
 
 @media screen and (max-width:768px) {
-  
+  main {
+    width: 100%;
+  }
+
+  .content-box {
+    width: 90%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .content-box:last-child {
+    margin: 0 auto;
+  }
+
+
 }
